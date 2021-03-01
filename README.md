@@ -11,7 +11,7 @@ clean_wait_queue.c(System code)
 並用wake up函式去將wait queue裡面的process叫醒  
 ![image](https://github.com/fallantbell/NCU_linux_project2/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202021-03-01%20194437.png)  
 
-
+##驗證  
 執行程式後  
 用ctrl z暫停  
 然後用bg放到背景繼續執行  
