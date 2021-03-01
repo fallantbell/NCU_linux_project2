@@ -28,3 +28,6 @@
 ###clean_queue.c
 用前面的clean_wait_queue.c 的system code將wait queue清空
 
+因為前面pid 8802是放入wait queue 1  
+所以選擇清空wait queue 1
+結果可以看到pid 8802被釋放出來
