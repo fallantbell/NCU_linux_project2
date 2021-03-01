@@ -25,9 +25,10 @@
 代表TASK_INTERRUPTIBLE的睡眠狀態  
 ![image](https://github.com/fallantbell/NCU_linux_project2/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202021-03-01%20204014.png)  
 
-###clean_queue.c
-用前面的clean_wait_queue.c 的system code將wait queue清空
+###clean_queue.c  
+用前面的clean_wait_queue.c 的system code將wait queue清空  
 
-因為前面pid 8802是放入wait queue 1  
-所以選擇清空wait queue 1
-結果可以看到pid 8802被釋放出來
+因為前面pid 8802是放入wait queue 1    
+所以選擇清空wait queue 1  
+結果可以看到pid 8802被釋放出來  
+![image](https://github.com/fallantbell/NCU_linux_project2/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202021-03-01%20204058.png)
